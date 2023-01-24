@@ -4,6 +4,8 @@ export interface Props {
 }
 
 const { title } = Astro.props;
+
+
 ---
 
 <!DOCTYPE html>
@@ -13,6 +15,7 @@ const { title } = Astro.props;
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content="Early Astro 2.0 attempt at building an online art gallery to sell my fine art &amp; prints online.">
 		<title>{title}</title>
 	</head>
 	<body>
